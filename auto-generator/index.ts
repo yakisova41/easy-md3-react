@@ -95,7 +95,7 @@ Object.keys(moduleNameMap).forEach((moduleName) => {
 
   code += `\nimport { type ${
     addMd ? "Md" : ""
-  }${moduleName}Props } from './converted-components.d';`;
+  }${moduleName}Props } from './converted-components-props';`;
 
   code += `\nexport const ${addMd ? "Md" : ""}${moduleName} = litToReact<${
     addMd ? "Md" : ""
