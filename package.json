@@ -1,7 +1,9 @@
 {
   "name": "easy-mv3-react",
+  "types": "dist",
+  "main": "dist/index.js",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -14,11 +16,11 @@
   },
   "dependencies": {
     "@material/web": "^2.2.0",
+    "kebab-case": "^2.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "kebab-case": "^2.0.1",
     "@eslint/js": "^9.9.0",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@types/react": "^18.3.3",
