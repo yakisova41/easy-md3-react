@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run vite-build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d vite-dist"
   },
   "dependencies": {
     "@material/web": "^2.2.0",
