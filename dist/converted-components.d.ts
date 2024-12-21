@@ -1,15 +1,15 @@
 import { type MdElevatedButtonProps } from './converted-components.d';
-export declare const MdElevatedButton: ({ ...props }: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdElevatedButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdElevatedButton: (props: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdElevatedButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledButtonProps } from './converted-components.d';
-export declare const MdFilledButton: ({ ...props }: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledButton: (props: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledTonalButtonProps } from './converted-components.d';
-export declare const MdFilledTonalButton: ({ ...props }: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTonalButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledTonalButton: (props: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTonalButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdOutlinedButtonProps } from './converted-components.d';
-export declare const MdOutlinedButton: ({ ...props }: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdOutlinedButton: (props: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdTextButtonProps } from './converted-components.d';
-export declare const MdTextButton: ({ ...props }: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdTextButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdTextButton: (props: import("./converted-components.d").MdButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdTextButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdCheckboxProps } from './converted-components.d';
-export declare const MdCheckbox: ({ ...props }: {
+export declare const MdCheckbox: (props: {
     checked?: boolean;
     indeterminate?: boolean;
     required?: boolean;
@@ -18,25 +18,25 @@ export declare const MdCheckbox: ({ ...props }: {
     name?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdCheckboxProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdAssistChipProps } from './converted-components.d';
-export declare const MdAssistChip: ({ ...props }: import("./converted-components.d").ChipProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdAssistChipProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdAssistChip: (props: import("./converted-components.d").ChipProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdAssistChipProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdChipSetProps } from './converted-components.d';
-export declare const MdChipSet: ({ ...props }: {
+export declare const MdChipSet: (props: {
     chips?: import("@material/web/chips/internal/chip").Chip[];
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdChipSetProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilterChipProps } from './converted-components.d';
-export declare const MdFilterChip: ({ ...props }: import("./converted-components.d").ChipProps & {
+export declare const MdFilterChip: (props: import("./converted-components.d").ChipProps & {
     handleTrailingActionFocus?: () => void;
     ariaLabelRemove?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilterChipProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdInputChipProps } from './converted-components.d';
-export declare const MdInputChip: ({ ...props }: import("./converted-components.d").ChipProps & {
+export declare const MdInputChip: (props: import("./converted-components.d").ChipProps & {
     handleTrailingActionFocus?: () => void;
     ariaLabelRemove?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdInputChipProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSuggestionChipProps } from './converted-components.d';
-export declare const MdSuggestionChip: ({ ...props }: import("./converted-components.d").ChipProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSuggestionChipProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdSuggestionChip: (props: import("./converted-components.d").ChipProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSuggestionChipProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdDialogProps } from './converted-components.d';
-export declare const MdDialog: ({ ...props }: {
+export declare const MdDialog: (props: {
     quick?: boolean;
     retuarnValue?: string;
     type?: string;
@@ -45,37 +45,37 @@ export declare const MdDialog: ({ ...props }: {
     getOpenAnimation?: () => import("@material/web/dialog/internal/animations").DialogAnimation;
     getCloseAnimation?: () => import("@material/web/dialog/internal/animations").DialogAnimation;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdDialogProps>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdDivider: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdElevation: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdDivider: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdElevation: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
 import { type MdBrandedFabProps } from './converted-components.d';
-export declare const MdBrandedFab: ({ ...props }: import("./converted-components.d").FabProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdBrandedFabProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdBrandedFab: (props: import("./converted-components.d").FabProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdBrandedFabProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFabProps } from './converted-components.d';
-export declare const MdFab: ({ ...props }: import("./converted-components.d").FabProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFabProps>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdFilledField: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdOutlinedField: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdFocusRing: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
-export declare const MdIcon: ({ ...props }: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFab: (props: import("./converted-components.d").FabProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFabProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledField: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdOutlinedField: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFocusRing: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdIcon: (props: import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledIconButtonProps } from './converted-components.d';
-export declare const MdFilledIconButton: ({ ...props }: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledIconButton: (props: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledTonalIconButtonProps } from './converted-components.d';
-export declare const MdFilledTonalIconButton: ({ ...props }: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTonalIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledTonalIconButton: (props: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTonalIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdIconButtonProps } from './converted-components.d';
-export declare const MdIconButton: ({ ...props }: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdIconButton: (props: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdOutlinedIconButtonProps } from './converted-components.d';
-export declare const MdOutlinedIconButton: ({ ...props }: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdOutlinedIconButton: (props: import("./converted-components.d").IconButtonProps & import("react").ClassAttributes<HTMLButtonElement> & import("react").ButtonHTMLAttributes<HTMLButtonElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedIconButtonProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdListItemProps } from './converted-components.d';
-export declare const MdListItem: ({ ...props }: {
+export declare const MdListItem: (props: {
     disabled?: boolean;
     type?: string;
     href?: string;
     target?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdListItemProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdListProps } from './converted-components.d';
-export declare const MdList: ({ ...props }: {
+export declare const MdList: (props: {
     items?: import("@material/web/menu/menu").ListItem[];
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdListProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdMenuItemProps } from './converted-components.d';
-export declare const MdMenuItem: ({ ...props }: {
+export declare const MdMenuItem: (props: {
     disabled?: boolean;
     type?: string;
     href?: string;
@@ -85,7 +85,7 @@ export declare const MdMenuItem: ({ ...props }: {
     typeaheadText?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdMenuItemProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdMenuProps } from './converted-components.d';
-export declare const MdMenu: ({ ...props }: {
+export declare const MdMenu: (props: {
     anchor?: string;
     positioning?: string;
     quick?: boolean;
@@ -109,7 +109,7 @@ export declare const MdMenu: ({ ...props }: {
     items?: import("@material/web/menu/menu").MenuItem[];
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdMenuProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSubMenuProps } from './converted-components.d';
-export declare const MdSubMenu: ({ ...props }: {
+export declare const MdSubMenu: (props: {
     "anchor-corner"?: string;
     "menu-corner"?: string;
     "hover-open-delay"?: number;
@@ -119,13 +119,13 @@ export declare const MdSubMenu: ({ ...props }: {
     menu?: import("@material/web/menu/menu").Menu;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSubMenuProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdCircularProgressProps } from './converted-components.d';
-export declare const MdCircularProgress: ({ ...props }: import("./converted-components.d").ProgressProps & {
+export declare const MdCircularProgress: (props: import("./converted-components.d").ProgressProps & {
     buffer?: number;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdCircularProgressProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdLinearProgressProps } from './converted-components.d';
-export declare const MdLinearProgress: ({ ...props }: import("./converted-components.d").ProgressProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdLinearProgressProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdLinearProgress: (props: import("./converted-components.d").ProgressProps & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdLinearProgressProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdRadioProps } from './converted-components.d';
-export declare const MdRadio: ({ ...props }: {
+export declare const MdRadio: (props: {
     required?: boolean;
     value?: string;
     checked?: boolean;
@@ -133,17 +133,17 @@ export declare const MdRadio: ({ ...props }: {
     name?: string;
 } & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdRadioProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdRippleProps } from './converted-components.d';
-export declare const MdRipple: ({ ...props }: {
+export declare const MdRipple: (props: {
     disabled?: boolean;
     htmlFor?: string;
     control?: HTMLElement;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdRippleProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledSelectProps } from './converted-components.d';
-export declare const MdFilledSelect: ({ ...props }: import("./converted-components.d").MdSelectProps & import("react").ClassAttributes<HTMLSelectElement> & import("react").SelectHTMLAttributes<HTMLSelectElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledSelectProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledSelect: (props: import("./converted-components.d").MdSelectProps & import("react").ClassAttributes<HTMLSelectElement> & import("react").SelectHTMLAttributes<HTMLSelectElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledSelectProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdOutlinedSelectProps } from './converted-components.d';
-export declare const MdOutlinedSelect: ({ ...props }: import("./converted-components.d").MdSelectProps & import("react").ClassAttributes<HTMLSelectElement> & import("react").SelectHTMLAttributes<HTMLSelectElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedSelectProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdOutlinedSelect: (props: import("./converted-components.d").MdSelectProps & import("react").ClassAttributes<HTMLSelectElement> & import("react").SelectHTMLAttributes<HTMLSelectElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedSelectProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSelectOptionProps } from './converted-components.d';
-export declare const MdSelectOption: ({ ...props }: {
+export declare const MdSelectOption: (props: {
     disabled?: boolean;
     selected?: boolean;
     value?: string;
@@ -152,7 +152,7 @@ export declare const MdSelectOption: ({ ...props }: {
     displayText?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSelectOptionProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSliderProps } from './converted-components.d';
-export declare const MdSlider: ({ ...props }: {
+export declare const MdSlider: (props: {
     min?: number;
     max?: number;
     value?: number;
@@ -175,7 +175,7 @@ export declare const MdSlider: ({ ...props }: {
     nameEnd?: string;
 } & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSliderProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSwitchProps } from './converted-components.d';
-export declare const MdSwitch: ({ ...props }: {
+export declare const MdSwitch: (props: {
     selected?: boolean;
     icons?: boolean;
     "show-only-selected-icon"?: boolean;
@@ -185,7 +185,7 @@ export declare const MdSwitch: ({ ...props }: {
     name?: string;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSwitchProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdPrimaryTabProps } from './converted-components.d';
-export declare const MdPrimaryTab: ({ ...props }: {
+export declare const MdPrimaryTab: (props: {
     "inline-icon"?: boolean;
     "md-tab"?: boolean;
     active?: boolean;
@@ -194,7 +194,7 @@ export declare const MdPrimaryTab: ({ ...props }: {
     selected?: boolean;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdPrimaryTabProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdSecondaryTabProps } from './converted-components.d';
-export declare const MdSecondaryTab: ({ ...props }: {
+export declare const MdSecondaryTab: (props: {
     "md-tab"?: boolean;
     active?: boolean;
     "has-icon"?: boolean;
@@ -202,13 +202,13 @@ export declare const MdSecondaryTab: ({ ...props }: {
     selected?: boolean;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdSecondaryTabProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdTabsProps } from './converted-components.d';
-export declare const MdTabs: ({ ...props }: {
+export declare const MdTabs: (props: {
     "auto-activate"?: boolean;
     "active-tab-index"?: number;
     tabs?: import("@material/web/tabs/internal/tab").Tab[];
     activeTab?: import("@material/web/tabs/internal/tab").Tab;
 } & import("react").ClassAttributes<HTMLDivElement> & import("react").HTMLAttributes<HTMLDivElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdTabsProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdFilledTextFieldProps } from './converted-components.d';
-export declare const MdFilledTextField: ({ ...props }: import("./converted-components.d").TextFieldProps & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTextFieldProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdFilledTextField: (props: import("./converted-components.d").TextFieldProps & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdFilledTextFieldProps>, string | import("react").JSXElementConstructor<any>>;
 import { type MdOutlinedTextFieldProps } from './converted-components.d';
-export declare const MdOutlinedTextField: ({ ...props }: import("./converted-components.d").TextFieldProps & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedTextFieldProps>, string | import("react").JSXElementConstructor<any>>;
+export declare const MdOutlinedTextField: (props: import("./converted-components.d").TextFieldProps & import("react").ClassAttributes<HTMLInputElement> & import("react").InputHTMLAttributes<HTMLInputElement>) => import("react").ReactElement<import("react").JSXElementConstructor<MdOutlinedTextFieldProps>, string | import("react").JSXElementConstructor<any>>;

@@ -1,11 +1,1 @@
-{
-  "root": [
-    "./vite-src/App.tsx",
-    "./vite-src/main.tsx",
-    "./vite-src/vite-env.d.ts",
-    "./vite-src/components/BrandCard.tsx",
-    "./vite-src/components/Code.tsx",
-    "./vite-src/components/GettingStarted.tsx"
-  ],
-  "version": "5.7.2"
-}
+{"root":["./vite-src/App.tsx","./vite-src/main.tsx","./vite-src/vite-env.d.ts","./vite-src/components/BrandCard.tsx","./vite-src/components/Code.tsx","./vite-src/components/GettingStarted.tsx"],"version":"5.7.2"}
