@@ -4,7 +4,7 @@ This is just a wrpper of [@material/web](https://github.com/material-components/
 So, It is complianted official design policy of Material 3 completely.
 
 - [Docs of @material/web](https://material-web.dev/)
-- [Sample(Not yet)]()
+- [Sample page](https://yakisova41.github.io/easy-mv3-react/)
 
 ## Get started
 
