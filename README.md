@@ -1,19 +1,19 @@
-# Easy Mv3 React
+# Easy Md3 React
 
 This is just a wrpper of [@material/web](https://github.com/material-components/material-web/) that can be used in React easily.
 So, It is complianted official design policy of Material 3 completely.
 
 - [Docs of @material/web](https://material-web.dev/)
-- [Sample page](https://yakisova41.github.io/easy-mv3-react/)
+- [Sample page](https://yakisova41.github.io/easy-md3-react/)
 
 ## Get started
 
 ```sh
-npm install https://github.com/yakisova41/easy-mv3-react
+npm install https://github.com/yakisova41/easy-md3-react
 ```
 
 ```tsx
-import { MdFilledButton } from "easy-mv3-react";
+import { MdFilledButton } from "easy-md3-react";
 
 function App() {
   return <MdFilledButton>Hello button!</MdFilledButton>;
@@ -26,7 +26,7 @@ export default App;
 
 What this module does is create a web-component element using the React function createElement. That is simply it.
 
-easy-mv3-react/tools.ts (40)
+easy-md3-react/tools.ts (40)
 
 ```ts
 /**

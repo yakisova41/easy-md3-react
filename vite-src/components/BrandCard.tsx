@@ -2,13 +2,13 @@ import {
   MdElevatedCard,
   Typography,
   MdFilledButton,
-} from "../../easy-mv3-react";
+} from "../../easy-md3-react";
 
 export function BrandCard() {
   return (
     <MdElevatedCard className="card">
       <Typography component="h1" typescale="display" size="medium">
-        Easy Mv3 React
+        Easy Md3 React
       </Typography>
 
       <Typography component="p" typescale="body" size="large">

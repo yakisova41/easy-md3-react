@@ -1,9 +1,9 @@
 {
-  "name": "easy-mv3-react",
+  "name": "easy-md3-react",
   "types": "dist",
   "main": "dist/index.js",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "type": "module",
   "scripts": {

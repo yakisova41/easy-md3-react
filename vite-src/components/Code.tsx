@@ -1,5 +1,5 @@
 import { CodeBlock } from "react-code-block";
-import { MdOutlinedCard } from "../../easy-mv3-react";
+import { MdOutlinedCard } from "../../easy-md3-react";
 
 export function Code({ code, language }: { code: string; language: string }) {
   return (

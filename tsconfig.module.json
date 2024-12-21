@@ -21,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["easy-mv3-react"],
+  "include": ["easy-md3-react"],
   "exclude": ["node_modules", "dist"]
 }

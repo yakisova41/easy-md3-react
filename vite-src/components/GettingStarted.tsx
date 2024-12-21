@@ -1,4 +1,4 @@
-import { MdDivider, MdOutlinedCard, Typography } from "../../easy-mv3-react";
+import { MdDivider, MdOutlinedCard, Typography } from "../../easy-md3-react";
 import { Code } from "./Code";
 
 export function GettingStarted() {
@@ -13,7 +13,7 @@ export function GettingStarted() {
           Console
         </Typography>
         <Code
-          code="npm install https://github.com/yakisova41/easy-mv3-react"
+          code="npm install https://github.com/yakisova41/easy-md3-react"
           language="sh"
         />
       </div>
@@ -26,7 +26,7 @@ export function GettingStarted() {
         </Typography>
         <Code
           code={[
-            'import { MdFilledButton } from "easy-mv3-react";',
+            'import { MdFilledButton } from "easy-md3-react";',
             "",
             "function App(){",
             "  return <MdFilledButton>Hello button!</MdFilledButton>;",

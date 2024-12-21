@@ -1,4 +1,4 @@
-import { MdFab, MdIcon } from "../easy-mv3-react";
+import { MdFab, MdIcon } from "../easy-md3-react";
 import "./App.scss";
 
 import { GettingStarted } from "./components/GettingStarted";
@@ -21,7 +21,7 @@ function App() {
           variant="primary"
           label="GitHub"
           onClick={() => {
-            window.open("https://github.com/yakisova41/easy-mv3-react", "");
+            window.open("https://github.com/yakisova41/easy-md3-react", "");
           }}
         >
           <MdIcon slot="icon">

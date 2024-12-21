@@ -1,1 +1,12 @@
-{"root":["./easy-mv3-react/converted-components.ts","./easy-mv3-react/index.ts","./easy-mv3-react/tools.ts","./easy-mv3-react/components/Theming/index.tsx","./easy-mv3-react/components/Theming/theme.d.ts","./easy-mv3-react/components/Typography/index.tsx","./easy-mv3-react/labs/converted-components.ts"],"version":"5.7.2"}
+{
+  "root": [
+    "./easy-md3-react/converted-components.ts",
+    "./easy-md3-react/index.ts",
+    "./easy-md3-react/tools.ts",
+    "./easy-md3-react/components/Theming/index.tsx",
+    "./easy-md3-react/components/Theming/theme.d.ts",
+    "./easy-md3-react/components/Typography/index.tsx",
+    "./easy-md3-react/labs/converted-components.ts"
+  ],
+  "version": "5.7.2"
+}

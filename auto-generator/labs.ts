@@ -3,10 +3,10 @@ import fs from "fs-extra";
 import nodePath from "path";
 
 /**
- * Create easy-mv3-react/labs/converted-components.ts automaticlly from @material/web repo in github.
+ * Create easy-md3-react/labs/converted-components.ts automaticlly from @material/web repo in github.
  */
 
-console.log("EASY MV3 REACT\nLab!!! Components auto genetaror");
+console.log("EASY MD3 REACT\nLab!!! Components auto genetaror");
 
 // github classic api token
 const token = process.env.GITHUB_TOKEN;
@@ -94,7 +94,7 @@ Object.keys(moduleNameMap).forEach((moduleName) => {
 });
 
 fs.outputFile(
-  nodePath.resolve("../easy-mv3-react/labs/converted-components.ts"),
+  nodePath.resolve("../easy-md3-react/labs/converted-components.ts"),
   code
 );
 

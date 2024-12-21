@@ -3,7 +3,7 @@ import typescript from "rollup-plugin-typescript2";
 
 export default [
   {
-    input: "easy-mv3-react/index.ts",
+    input: "easy-md3-react/index.ts",
     output: [
       {
         file: "dist/index.js",
