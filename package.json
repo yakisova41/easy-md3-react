@@ -1,0 +1,45 @@
+{
+  "name": "easy-mv3-react",
+  "private": false,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "watch": "rollup --watch --config rollup.config.js",
+    "build": "rollup --config rollup.config.js",
+    "vite-build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material/web": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "kebab-case": "^2.0.1",
+    "@eslint/js": "^9.9.0",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "lit": "^3.2.1",
+    "prism-react-renderer": "^2.4.1",
+    "react-code-block": "^1.1.1",
+    "react-icons": "^5.4.0",
+    "rollup": "^4.28.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "sass": "^1.83.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}
