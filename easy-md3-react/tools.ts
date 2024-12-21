@@ -1,4 +1,4 @@
-import { type Initializer, type LitElement } from "lit";
+import { Initializer, LitElement } from "lit";
 import { createElement, ComponentProps, useEffect, useState } from "react";
 
 // A Class that extends LitElement
