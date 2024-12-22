@@ -17,6 +17,7 @@ type ColorPalette = {
   "98": string;
   "99": string;
   "100": string;
+  [key: string]: string;
 };
 
 type ColorSchemes = {
@@ -96,5 +97,6 @@ export type MaterialTheme = {
     tertiary: ColorPalette;
     neutral: ColorPalette;
     "neutral-variant": ColorPalette;
+    [key: string]: ColorPalette;
   };
 };

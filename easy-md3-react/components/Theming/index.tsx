@@ -48,5 +48,15 @@ export function applyTheme(
     csss.push(`--md-sys-color-${kebab}: ${colorHex};`);
   });
 
+  Object.keys(theme.palettes).forEach((colorName) => {
+    const colorPalette = theme.palettes[colorName];
+
+    Object.keys(colorPalette).forEach((colorNumber) => {
+      const colorHex = theme.palettes[colorName][colorNumber];
+      const kebab = kebabCase(colorName);
+      csss.push(`--md-sys-color-${kebab}-${colorNumber}: ${colorHex};`);
+    });
+  });
+
   target.setAttribute("style", csss.join(" "));
 }
