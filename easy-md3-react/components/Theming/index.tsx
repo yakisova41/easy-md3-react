@@ -2,7 +2,7 @@ import { ReactNode, useEffect } from "react";
 import { MaterialTheme } from "./theme";
 import kebabCase from "kebab-case";
 
-export function Themeing({
+export function Theming({
   theme,
   dark = window.matchMedia("(prefers-color-scheme: dark)").matches,
   children,
