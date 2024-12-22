@@ -165,19 +165,29 @@ function Typography({ component, typescale = "display", size = "medium", classNa
     return element;
 }
 
-function Themeing({ theme, dark = window.matchMedia("(prefers-color-scheme: dark)").matches, children, }) {
+function Theming({ theme, scheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light", children, }) {
     useEffect(() => {
-        applyTheme(theme, { target: document.body, dark: dark });
-    }, [dark, theme]);
+        applyTheme(theme, { target: document.body, scheme });
+    }, [scheme, theme]);
     return jsx(Fragment, { children: children });
 }
-function applyTheme(theme, { target, dark }) {
-    const scheme = theme.schemes[dark ? "dark" : "light"];
+function applyTheme(theme, { target, scheme, }) {
+    const thisScheme = theme.schemes[scheme];
     const csss = [];
-    Object.keys(scheme).forEach((propertyName) => {
+    Object.keys(thisScheme).forEach((propertyName) => {
         const kebab = kebabCase(propertyName);
-        const colorHex = scheme[propertyName];
+        const colorHex = thisScheme[propertyName];
         csss.push(`--md-sys-color-${kebab}: ${colorHex};`);
+    });
+    Object.keys(theme.palettes).forEach((colorName) => {
+        const colorPalette = theme.palettes[colorName];
+        Object.keys(colorPalette).forEach((colorNumber) => {
+            const colorHex = theme.palettes[colorName][colorNumber];
+            const kebab = kebabCase(colorName);
+            csss.push(`--md-sys-color-${kebab}-${colorNumber}: ${colorHex};`);
+        });
     });
     target.setAttribute("style", csss.join(" "));
 }
@@ -194,4 +204,4 @@ const MdNavigationTab = litToReact(MdNavigationTab$1);
 const MdOutlinedSegmentedButton = litToReact(MdOutlinedSegmentedButton$1);
 const MdOutlinedSegmentedButtonSet = litToReact(MdOutlinedSegmentedButtonSet$1);
 
-export { MdAssistChip, MdBadge, MdBrandedFab, MdCheckbox, MdChipSet, MdCircularProgress, MdDialog, MdDivider, MdElevatedButton, MdElevatedCard, MdElevation, MdFab, MdFilledButton, MdFilledCard, MdFilledField, MdFilledIconButton, MdFilledSelect, MdFilledTextField, MdFilledTonalButton, MdFilledTonalIconButton, MdFilterChip, MdFocusRing, MdIcon, MdIconButton, MdInputChip, MdItem, MdLinearProgress, MdList, MdListItem, MdMenu, MdMenuItem, MdNavigationBar, MdNavigationDrawer, MdNavigationDrawerModal, MdNavigationTab, MdOutlinedButton, MdOutlinedCard, MdOutlinedField, MdOutlinedIconButton, MdOutlinedSegmentedButton, MdOutlinedSegmentedButtonSet, MdOutlinedSelect, MdOutlinedTextField, MdPrimaryTab, MdRadio, MdRipple, MdSecondaryTab, MdSelectOption, MdSlider, MdSubMenu, MdSuggestionChip, MdSwitch, MdTabs, MdTextButton, Themeing, Typography, applyTheme, litToReact, useLit };
+export { MdAssistChip, MdBadge, MdBrandedFab, MdCheckbox, MdChipSet, MdCircularProgress, MdDialog, MdDivider, MdElevatedButton, MdElevatedCard, MdElevation, MdFab, MdFilledButton, MdFilledCard, MdFilledField, MdFilledIconButton, MdFilledSelect, MdFilledTextField, MdFilledTonalButton, MdFilledTonalIconButton, MdFilterChip, MdFocusRing, MdIcon, MdIconButton, MdInputChip, MdItem, MdLinearProgress, MdList, MdListItem, MdMenu, MdMenuItem, MdNavigationBar, MdNavigationDrawer, MdNavigationDrawerModal, MdNavigationTab, MdOutlinedButton, MdOutlinedCard, MdOutlinedField, MdOutlinedIconButton, MdOutlinedSegmentedButton, MdOutlinedSegmentedButtonSet, MdOutlinedSelect, MdOutlinedTextField, MdPrimaryTab, MdRadio, MdRipple, MdSecondaryTab, MdSelectOption, MdSlider, MdSubMenu, MdSuggestionChip, MdSwitch, MdTabs, MdTextButton, Theming, Typography, applyTheme, litToReact, useLit };

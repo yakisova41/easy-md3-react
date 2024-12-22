@@ -892,6 +892,7 @@ type ColorPalette = {
   "98": string;
   "99": string;
   "100": string;
+  [key: string]: string;
 };
 
 type ColorSchemes = {
@@ -971,17 +972,19 @@ type MaterialTheme = {
     tertiary: ColorPalette;
     neutral: ColorPalette;
     "neutral-variant": ColorPalette;
+    [key: string]: ColorPalette;
   };
 };
 
-declare function Themeing({ theme, dark, children, }: {
+type Schemes = "light" | "light-medium-contrast" | "light-high-contrast" | "dark" | "dark-medium-contrast" | "dark-high-contrast";
+declare function Theming({ theme, scheme, children, }: {
     theme: MaterialTheme;
-    dark?: boolean;
+    scheme?: Schemes;
     children?: ReactNode;
 }): react_jsx_runtime.JSX.Element;
-declare function applyTheme(theme: MaterialTheme, { target, dark }: {
+declare function applyTheme(theme: MaterialTheme, { target, scheme, }: {
     target: Element;
-    dark: boolean;
+    scheme: Schemes;
 }): void;
 
 type MdBadgeProps = {} & ComponentProps<"div">;
@@ -1018,4 +1021,4 @@ declare const MdOutlinedSegmentedButton: (props: react.ClassAttributes<HTMLDivEl
 
 declare const MdOutlinedSegmentedButtonSet: (props: react.ClassAttributes<HTMLDivElement> & react.HTMLAttributes<HTMLDivElement>) => react.ReactElement<react.JSXElementConstructor<MdOutlinedSegmentedButtonSetProps>, string | react.JSXElementConstructor<any>>;
 
-export { MdAssistChip, MdBadge, MdBrandedFab, MdCheckbox, MdChipSet, MdCircularProgress, MdDialog, MdDivider, MdElevatedButton, MdElevatedCard, MdElevation, MdFab, MdFilledButton, MdFilledCard, MdFilledField, MdFilledIconButton, MdFilledSelect, MdFilledTextField, MdFilledTonalButton, MdFilledTonalIconButton, MdFilterChip, MdFocusRing, MdIcon, MdIconButton, MdInputChip, MdItem, MdLinearProgress, MdList, MdListItem, MdMenu, MdMenuItem, MdNavigationBar, MdNavigationDrawer, MdNavigationDrawerModal, MdNavigationTab, MdOutlinedButton, MdOutlinedCard, MdOutlinedField, MdOutlinedIconButton, MdOutlinedSegmentedButton, MdOutlinedSegmentedButtonSet, MdOutlinedSelect, MdOutlinedTextField, MdPrimaryTab, MdRadio, MdRipple, MdSecondaryTab, MdSelectOption, MdSlider, MdSubMenu, MdSuggestionChip, MdSwitch, MdTabs, MdTextButton, Themeing, Typography, type TypographyProps, applyTheme, litToReact, useLit };
+export { MdAssistChip, MdBadge, MdBrandedFab, MdCheckbox, MdChipSet, MdCircularProgress, MdDialog, MdDivider, MdElevatedButton, MdElevatedCard, MdElevation, MdFab, MdFilledButton, MdFilledCard, MdFilledField, MdFilledIconButton, MdFilledSelect, MdFilledTextField, MdFilledTonalButton, MdFilledTonalIconButton, MdFilterChip, MdFocusRing, MdIcon, MdIconButton, MdInputChip, MdItem, MdLinearProgress, MdList, MdListItem, MdMenu, MdMenuItem, MdNavigationBar, MdNavigationDrawer, MdNavigationDrawerModal, MdNavigationTab, MdOutlinedButton, MdOutlinedCard, MdOutlinedField, MdOutlinedIconButton, MdOutlinedSegmentedButton, MdOutlinedSegmentedButtonSet, MdOutlinedSelect, MdOutlinedTextField, MdPrimaryTab, MdRadio, MdRipple, MdSecondaryTab, MdSelectOption, MdSlider, MdSubMenu, MdSuggestionChip, MdSwitch, MdTabs, MdTextButton, type Schemes, Theming, Typography, type TypographyProps, applyTheme, litToReact, useLit };
