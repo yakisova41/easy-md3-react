@@ -7,7 +7,7 @@ import { Theming } from "../easy-md3-react";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Theming theme={themeJson}>
+    <Theming theme={themeJson} scheme="dark">
       <App />
     </Theming>
   </StrictMode>

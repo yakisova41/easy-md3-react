@@ -2,33 +2,48 @@ import { ReactNode, useEffect } from "react";
 import { MaterialTheme } from "./theme";
 import kebabCase from "kebab-case";
 
+export type Schemes =
+  | "light"
+  | "light-medium-contrast"
+  | "light-high-contrast"
+  | "dark"
+  | "dark-medium-contrast"
+  | "dark-high-contrast";
+
 export function Theming({
   theme,
-  dark = window.matchMedia("(prefers-color-scheme: dark)").matches,
+  scheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light",
   children,
 }: {
   theme: MaterialTheme;
-  dark?: boolean;
+  scheme?: Schemes;
   children?: ReactNode;
 }) {
   useEffect(() => {
-    applyTheme(theme, { target: document.body, dark: dark });
-  }, [dark, theme]);
+    applyTheme(theme, { target: document.body, scheme });
+  }, [scheme, theme]);
 
   return <>{children}</>;
 }
 
 export function applyTheme(
   theme: MaterialTheme,
-  { target, dark }: { target: Element; dark: boolean }
+  {
+    target,
+    scheme,
+  }: {
+    target: Element;
+    scheme: Schemes;
+  }
 ) {
-  const scheme = theme.schemes[dark ? "dark" : "light"];
-
+  const thisScheme = theme.schemes[scheme];
   const csss: string[] = [];
 
-  Object.keys(scheme).forEach((propertyName) => {
+  Object.keys(thisScheme).forEach((propertyName) => {
     const kebab = kebabCase(propertyName);
-    const colorHex = scheme[propertyName];
+    const colorHex = thisScheme[propertyName];
 
     csss.push(`--md-sys-color-${kebab}: ${colorHex};`);
   });
