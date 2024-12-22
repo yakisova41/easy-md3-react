@@ -64,6 +64,39 @@ export function litToReact<
 }
 ```
 
+## How to theming?
+
+You can theme by use Theming component.
+
+It's just setting style to body element by using theme.
+
+```tsx
+import { Theming, MaterialTheme } from "easy-md3-react";
+import themeJson from "./theme.json";
+
+// It's typed as MaterialTheme.
+// so you can write object directly if you don't want to import json.
+const theme: MaterialTheme = themeJson;
+
+<Theming theme={theme} scheme="dark">
+  <App />
+</Theming>;
+```
+
+### Supported schemes
+
+- light
+- light-medium-contrast
+- light-high-contrast
+- dark
+- dark-medium-contrast
+- dark-high-contrast
+
+### How to create theme json?
+
+Create a theme [here](https://material-foundation.github.io/material-theme-builder/),
+then do export "Material Theme(JSON)".
+
 ## LICENSE
 
 Copyright (c) 2024 Yakisova41
